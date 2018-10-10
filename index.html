@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Calculator</title>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+    <body>
+        <div id="calculatorContainer">
+            <div class="output" id="mainScreen">0</div>
+            <div class="output" id="operationScreen"></div>
+            <button id="appearanceButton">Light</button>
+            <button id="clr" value="C" onclick="GetButtonValue(this.value);">C</button>
+            <button id="%" value="%" onclick="GetButtonValue(this.value);">%</button>
+            <button id="÷" value="/" onclick="GetButtonValue(this.value);">÷</button>
+            <button id="*" value="*" onclick="GetButtonValue(this.value);">*</button>
+            <button id="num7" value="7" onclick="GetButtonValue(this.value);">7</button>
+            <button id="num8" value="8" onclick="GetButtonValue(this.value);">8</button>
+            <button id="num9" value="9" onclick="GetButtonValue(this.value);">9</button>
+            <button id="+" value="+" onclick="GetButtonValue(this.value);">+</button>
+            <button id="num4" value="4" onclick="GetButtonValue(this.value);">4</button>
+            <button id="num5" value="5" onclick="GetButtonValue(this.value);">5</button>
+            <button id="num6" value="6" onclick="GetButtonValue(this.value);">6</button>
+            <button id="-" value="-" onclick="GetButtonValue(this.value);">-</button>
+            <button id="num1" value="1" onclick="GetButtonValue(this.value);">1</button>
+            <button id="num2" value="2" onclick="GetButtonValue(this.value);">2</button>
+            <button id="num3" value="3" onclick="GetButtonValue(this.value);">3</button>
+            <button id="floatingPoint" value="." onclick="GetButtonValue(this.value);">.</button>
+            <button id="num0" value="0" onclick="GetButtonValue(this.value);">0</button>
+            <button id="equals" value="=" onclick="GetButtonValue(this.value);">=</button>
+        </div>
+
+        <script src="./jquery-3.3.1.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
